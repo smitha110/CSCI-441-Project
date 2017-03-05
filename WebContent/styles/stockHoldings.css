@@ -1,0 +1,52 @@
+body {
+	background-color: #2B66B2;
+}
+p,span, h1, h2, label {
+	color: #FFC457;
+}
+h1, h2, form {
+	text-align: center;
+}
+a {
+	color: #B27D19;
+}
+table, th, td {
+   	border: 1px solid black;
+}
+.header {
+	font-weight: bold;
+}
+.div-table{
+  display:table;         
+  width:auto;         
+  background-color:#A9A9A9;         
+  border:1px solid black;         
+  border-spacing:5px;/*cellspacing:poor IE fix*/
+  text-align: center;
+  padding: 1px;
+}
+.div-table-row{
+  display:table-row; 
+  width:auto;
+  clear:both;  
+}
+.min-width{
+  min-width:1200px; 
+}
+.div-table-col{
+  float:left;/* browser fix*/
+  display:table-column;         
+  width:100px;         
+  background-color:#ccc;  
+  border:1px solid black; 
+  margin: 1px;
+  padding: 5px;
+  height: 30px;
+}
+.oneTwentyFiveWidth {
+	width: 125px;
+}
+.alert{
+	color: red;
+	text-align: center;
+}
